@@ -1,4 +1,4 @@
-# Smart RHP/DRHP Platform
+# AI-Powered Regulatory Document Intelligence Platform (RHP/DRHP)
 
 A specialized AI-powered full-stack solution designed to simplify and accelerate the review of Red Herring Prospectus (RHP) and Draft Red Herring Prospectus (DRHP) documents. This platform enables secure document management, intelligent summarization, interactive exploration, and automated comparison between draft and final versions.
 
@@ -301,7 +301,7 @@ Ensure the following are configured in your n8n workflow:
 
 ```
 DRHP-RHP/
-├── RHP-Document-Summarizer-main/    # Frontend React application
+├── Frontend/    # Frontend React application
 │   ├── src/
 │   │   ├── components/              # React components
 │   │   ├── pages/                   # Page components
@@ -313,7 +313,7 @@ DRHP-RHP/
 │   ├── package.json
 │   └── vite.config.ts
 │
-├── smart-rhtp-backend-main/          # Backend Express API
+├── Backend/          # Backend Express API
 │   ├── controllers/                  # Request handlers
 │   ├── models/                       # Mongoose schemas
 │   ├── routes/                       # API routes
