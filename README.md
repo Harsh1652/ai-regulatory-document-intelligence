@@ -40,7 +40,7 @@ The Smart RHP/DRHP Platform directly addresses these pain points by introducing 
 
 The platform is built as a **full-stack application** with the following architecture:
 
-### Frontend (`RHP-Document-Summarizer-main/`)
+### Frontend 
 - **Framework**: React 18 + TypeScript
 - **Build Tool**: Vite
 - **UI Library**: Tailwind CSS + shadcn-ui components
@@ -49,7 +49,7 @@ The platform is built as a **full-stack application** with the following archite
 - **HTTP Client**: Axios
 - **Real-time**: Socket.io-client
 
-### Backend (`smart-rhtp-backend-main/`)
+### Backend 
 - **Runtime**: Node.js + Express
 - **Database**: MongoDB with Mongoose ODM
 - **Authentication**: JWT + Passport.js (Microsoft OAuth)
